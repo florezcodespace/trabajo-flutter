@@ -1,0 +1,5 @@
+# Archivos y carpetas que Git no debe rastrear (ej. dependencias locales)
+.dart_tool/
+.packages
+build/
+pubspec.lock
