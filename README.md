@@ -11,9 +11,9 @@ A continuación, se detalla el equipo de aprendices involucrados en el desarroll
 
 | Nombre del Aprendiz | Rol en Gitflow | Tareas Asignadas (Dart) |
 | :--- | :--- | :--- |
-| **[Nombre Aprendiz 1]** | **Líder de Repositorio** (Ramas `main`, `develop`) | Estructura inicial, menú base, opción de **Agregar** contacto. Gestión de integración. |
-| **[Nombre Aprendiz 2]** | **Desarrollador Feature** (Rama `feature/listar`) | Creación del modelo `Contacto` y lógica de la opción de **Listar** contactos. |
-| **[Nombre Aprendiz 3]** | **Desarrollador Feature** (Rama `feature/gestion`) | Implementación de los algoritmos para **Buscar** y **Eliminar** contactos en la lista. |
+| **Andrés Florez** | **Líder de Repositorio** (Ramas `main`, `develop`) | Estructura inicial, menú base, opción de **Agregar** contacto. Gestión de integración. |
+| **Santiago perez** | **Desarrollador Feature** (Rama `feature/listar`) | Creación del modelo `Contacto` y lógica de la opción de **Listar** contactos. |
+| **ocampotobonemanuel5-svg** | **Desarrollador Feature** (Rama `feature/gestion`) | Implementación de los algoritmos para **Buscar** y **Eliminar** contactos en la lista. |
 
 ## 🚀 Instrucciones de Ejecución
 
@@ -21,4 +21,22 @@ Para ejecutar este proyecto en tu entorno local, asegúrate de tener el SDK de D
 
 ```bash
 dart run bin/main.dart
+```
+
+## 🧮 Actividad 1 — Algoritmos en Dart
+
+La carpeta `actividad1_algoritmos/` contiene los cinco algoritmos de la actividad de entrenamiento, resueltos por cada aprendiz en su propia subcarpeta (`andresflorez/`, `emanuelocampo/`, `santiagoperez/`):
+
+| Archivo | Ejercicio | Fórmula |
+| :--- | :--- | :--- |
+| `mru.dart` | Distancia en Movimiento Rectilíneo Uniforme | `D = V * T` |
+| `planilla.dart` | Total devengado por un empleado en el mes | `Total = horas * tarifa` |
+| `hipotenusa.dart` | Hipotenusa de un triángulo rectángulo | `H = sqrt(a² + b²)` |
+| `temperatura.dart` | Conversión de Celsius a Fahrenheit | `F = (C * 1.8) + 32` |
+| `serie_fibonacci.dart` | Serie 1 1 2 3 5 8 13… hasta un valor ≤ 100 | — |
+
+Cada algoritmo usa `class`, la librería `dart:io` y valida los datos vacíos o no numéricos. Se ejecutan de forma individual, por ejemplo:
+
+```bash
+dart run actividad1_algoritmos/andresflorez/mru.dart
 ```
