@@ -1,12 +1,7 @@
 // Punto de entrada de la aplicación y menú interactivo
 import 'dart:io';
+import '../lib/contact.dart';
 
-// El Aprendiz 2 definirá los atributos de esta clase
-class Contacto{
-  String nombre;
-  String telefono;
-  Contacto(this.nombre, this.telefono);
-}
 
 void main() {
   List<Contacto> agenda = [];
