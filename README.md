@@ -22,3 +22,21 @@ Para ejecutar este proyecto en tu entorno local, asegúrate de tener el SDK de D
 ```bash
 dart run bin/main.dart
 ```
+
+## 🧮 Actividad 1 — Algoritmos en Dart
+
+La carpeta `actividad1_algoritmos/` contiene los cinco algoritmos de la actividad de entrenamiento, resueltos por cada aprendiz en su propia subcarpeta (`andresflorez/`, `emanuelocampo/`, `santiagoperez/`):
+
+| Archivo | Ejercicio | Fórmula |
+| :--- | :--- | :--- |
+| `mru.dart` | Distancia en Movimiento Rectilíneo Uniforme | `D = V * T` |
+| `planilla.dart` | Total devengado por un empleado en el mes | `Total = horas * tarifa` |
+| `hipotenusa.dart` | Hipotenusa de un triángulo rectángulo | `H = sqrt(a² + b²)` |
+| `temperatura.dart` | Conversión de Celsius a Fahrenheit | `F = (C * 1.8) + 32` |
+| `serie_fibonacci.dart` | Serie 1 1 2 3 5 8 13… hasta un valor ≤ 100 | — |
+
+Cada algoritmo usa `class`, la librería `dart:io` y valida los datos vacíos o no numéricos. Se ejecutan de forma individual, por ejemplo:
+
+```bash
+dart run actividad1_algoritmos/andresflorez/mru.dart
+```
